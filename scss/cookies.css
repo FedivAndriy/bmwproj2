@@ -1,0 +1,116 @@
+.cookies {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  margin-left: 5%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  animation: show 2s;
+}
+.cookies p {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+}
+.cookies .cookies-file {
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.cookies .cookies-file2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding: 25px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.cookies .cookies-setting {
+  text-align: center;
+  height: 55px;
+  margin: 25px;
+  color: black;
+  width: 450px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.cookies .cookies-setting p {
+  font-size: 16px;
+  line-height: 24px;
+  font: 700 16px/24px Arial, Helvetica, sans-serif;
+}
+.cookies .cookies-setting:hover {
+  border: 2px solid black;
+}
+.cookies .cookies-next {
+  text-align: center;
+  height: 55px;
+  margin: 25px;
+  color: white;
+  width: 450px;
+  background: #1C69D4;
+  border: 0px;
+  border-radius: 2px;
+}
+.cookies .cookies-next p {
+  font-size: 16px;
+  line-height: 24px;
+  font: 700 16px/24px Arial, Helvetica, sans-serif;
+}
+.cookies .cookies-next:hover {
+  background: #1556b3;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (min-width: 900px) and (max-width: 1280px) {
+  .cookies .cookies-file {
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  .cookies .cookies-file2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 25px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .cookies .cookies-setting {
+    text-align: center;
+    height: 55px;
+    margin: 25px;
+    color: black;
+    width: 350px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  .cookies .cookies-setting p {
+    font-size: 14px;
+    line-height: 20px;
+    font: 700 14px/20px Arial, Helvetica, sans-serif;
+  }
+}/*# sourceMappingURL=cookies.css.map */

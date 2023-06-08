@@ -1,0 +1,99 @@
+.header-menu {
+  padding: 15px 0 15px 120px;
+  position: relative;
+  position: abs;
+}
+
+.header-menu-bar a {
+  padding: 25px 15px 0 0;
+  text-decoration: none;
+  color: white;
+}
+
+.header-menu-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5fr 0.5fr 0.5fr;
+}
+
+.header-menu {
+  background: rgb(228, 225, 225);
+  display: grid;
+  height: 84px;
+  width: 94%;
+  font-family: "Helvetica";
+}
+
+.h-menu-img {
+  display: grid;
+  grid-template-columns: 0.5fr 8fr;
+}
+.h-menu-img img {
+  padding-top: 20px;
+}
+
+.header-menu-bar a {
+  padding: 25px 15px 0 0;
+  text-decoration: none;
+  color: white;
+}
+.header-menu-bar a p {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.logo-bmw {
+  padding: 7.5px 15px 0 0;
+}
+
+.about-bmw {
+  width: 165px;
+}
+
+.menu_link {
+  position: relative;
+}
+.menu_link p {
+  color: #666;
+}
+
+.menu_link:hover {
+  color: white;
+}
+.menu_link:hover p {
+  color: #262626;
+}
+
+.menu_link:hover:before {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.menu_link:before {
+  content: "";
+  width: 90%;
+  height: 4px;
+  background-color: #1c69d4;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.search {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 200px;
+}
+
+.locate {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 200px;
+}

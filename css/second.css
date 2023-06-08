@@ -1,0 +1,549 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.eot");
+  src: local("Helvetica"), url("Helvetica.eot?#iefix") format("embedded-opentype"), url("Helvetica.woff2") format("woff2"), url("Helvetica.woff") format("woff"), url("Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Oblique.eot");
+  src: local("Helvetica Oblique"), local("Helvetica-Oblique"), url("Helvetica-Oblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-Oblique.woff2") format("woff2"), url("Helvetica-Oblique.woff") format("woff"), url("Helvetica-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-BoldOblique.eot");
+  src: local("Helvetica Bold Oblique"), local("Helvetica-BoldOblique"), url("Helvetica-BoldOblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-BoldOblique.woff2") format("woff2"), url("Helvetica-BoldOblique.woff") format("woff"), url("Helvetica-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Light.eot");
+  src: local("Helvetica Light"), local("Helvetica-Light"), url("Helvetica-Light.eot?#iefix") format("embedded-opentype"), url("Helvetica-Light.woff2") format("woff2"), url("Helvetica-Light.woff") format("woff"), url("Helvetica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Bold.eot");
+  src: local("Helvetica Bold"), local("Helvetica-Bold"), url("Helvetica-Bold.eot?#iefix") format("embedded-opentype"), url("Helvetica-Bold.woff2") format("woff2"), url("Helvetica-Bold.woff") format("woff"), url("Helvetica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-LightOblique.eot");
+  src: local("Helvetica Light Oblique"), local("Helvetica-LightOblique"), url("Helvetica-LightOblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-LightOblique.woff2") format("woff2"), url("Helvetica-LightOblique.woff") format("woff"), url("Helvetica-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  /* background-image: url(../img/х1.jpg); */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 738px;
+  color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.com-img {
+  margin-top: 100px;
+  position: absolute;
+  float: left;
+}
+
+.header-menu {
+  padding: 15px 0 0 120px;
+  position: relative;
+  position: abs;
+}
+
+.header-info {
+  position: relative;
+  padding-top: 175px;
+}
+
+.header-menu-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5fr 0.5fr 0.5fr;
+}
+
+.header-menu {
+  background: rgb(228, 225, 225);
+  display: grid;
+  height: 84px;
+  width: 93.7%;
+  font-family: "Helvetica";
+}
+
+.h-menu-img {
+  display: grid;
+  grid-template-columns: 0.5fr 8fr;
+}
+
+.header-menu-bar a {
+  padding: 25px 15px 0 0;
+  text-decoration: none;
+  color: white;
+}
+.header-menu-bar a p {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.logo-bmw {
+  padding: 7.5px 15px 0 0;
+}
+
+.about-bmw {
+  width: 165px;
+}
+
+.menu_link {
+  position: relative;
+}
+.menu_link p {
+  color: #666;
+}
+
+.menu_link:hover {
+  color: white;
+}
+.menu_link:hover p {
+  color: #262626;
+}
+
+.menu_link:hover:before {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.menu_link:before {
+  content: "";
+  width: 90%;
+  height: 4px;
+  background-color: #1c69d4;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.search {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 200px;
+}
+
+.locate {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 200px;
+}
+
+.X1-text {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 4rem;
+  font-family: Helvetica;
+}
+
+.special-propose {
+  font-family: Roboto;
+}
+
+.car-in-online {
+  margin-top: 1rem;
+  font-size: 1.65rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+  font-family: Roboto, sans-serif;
+}
+
+.header-button {
+  padding-top: 30px;
+}
+.header-button button {
+  width: 270px;
+  height: 60px;
+  position: absolute;
+  cursor: pointer;
+}
+.header-button .first-btn {
+  background: #1C69D4;
+  border: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+.header-button .first-btn p {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+.header-button .first-btn:hover {
+  background: #1556b3;
+}
+
+main {
+  width: 75%;
+  height: auto;
+  margin-left: 12.5%;
+  margin-top: 150px;
+}
+main p {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  margin-bottom: inherit;
+  font-family: inherit;
+}
+
+.servise-qual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.servise-img {
+  margin-top: 50px;
+}
+
+.qual-text {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.com-to-qual {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  line-height: 1.2;
+  width: 49%;
+}
+
+.meta-programm {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+ul li {
+  margin-left: 25px;
+}
+ul li p {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
+}
+
+.wallbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+}
+
+.wallbox-text {
+  margin-top: 150px;
+  text-align: left;
+}
+
+.bmw-acsesoares {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.175rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+
+.bmw-wallbox-text {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin-top: 20px;
+}
+
+.bmw-wallbox-text2 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  width: 700px;
+  margin-top: 20px;
+}
+
+.wallbox-price {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-top: 20px;
+}
+
+.wallbox-special-price {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-top: 2px;
+}
+
+.wallbox-btn {
+  margin-top: 30px;
+  height: 50px;
+  width: 250px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.wallbox-btn:hover {
+  border: 3px solid;
+}
+
+.wallbox-buy {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  word-break: break-word;
+}
+
+.wallbox-img {
+  margin-top: 80px;
+}
+
+.footer-info {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+.footer-info p {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.footer-info-second {
+  background: rgb(238, 234, 234);
+  margin-top: 20px;
+  height: 350px;
+}
+.footer-info-second .footer-menu-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-info-second .footer-menu-blocks p {
+  margin-top: 75px;
+  text-align: left;
+  margin-left: 150px;
+  display: block;
+  font-size: 0.625rem;
+  font-weight: 300;
+  letter-spacing: 0.125rem;
+  line-height: 0.75rem;
+  margin-bottom: 1rem;
+  position: relative;
+  text-transform: uppercase;
+  color: rgb(117, 115, 115);
+}
+.footer-info-second .footer-menu-blocks ul {
+  list-style-type: none;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 150px;
+}
+.footer-info-second .footer-menu-blocks li {
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  color: rgb(88, 87, 87);
+}
+.footer-info-second li:hover {
+  color: black;
+}
+
+.footer-social-media {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 70px;
+  opacity: 0.7;
+}
+.footer-social-media img {
+  margin-right: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer .bmw-ag {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.footer .footer-ag-menu {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 0.2fr 0.2fr;
+}
+.footer .footer-ag-menu p {
+  margin-top: 40px;
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+.footer .footer-ag-menu p:hover {
+  color: rgb(11, 63, 175);
+}
+
+.bmw-ag-23 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.hight {
+  margin-top: 100px;
+  padding-bottom: 15px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 300;
+}
+
+.b2b {
+  width: 260px;
+  background: #1C69D4;
+  border: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.b2b:hover {
+  background: #1556b3;
+}
+
+.footer-info-second {
+  background: rgb(238, 234, 234);
+  margin-top: 20px;
+  height: 350px;
+}
+.footer-info-second .footer-menu-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-info-second .footer-menu-blocks p {
+  margin-top: 75px;
+  text-align: left;
+  margin-left: 150px;
+  display: block;
+  font-size: 0.625rem;
+  font-weight: 300;
+  letter-spacing: 0.125rem;
+  line-height: 0.75rem;
+  margin-bottom: 1rem;
+  position: relative;
+  text-transform: uppercase;
+  color: rgb(117, 115, 115);
+}
+.footer-info-second .footer-menu-blocks ul {
+  list-style-type: none;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 150px;
+}
+.footer-info-second .footer-menu-blocks li {
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  color: rgb(88, 87, 87);
+}
+.footer-info-second li:hover {
+  color: black;
+}
+
+.footer-social-media {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 70px;
+  opacity: 0.7;
+}
+.footer-social-media img {
+  margin-right: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer .bmw-ag {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.footer .footer-ag-menu {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 0.2fr 0.2fr;
+}
+.footer .footer-ag-menu p {
+  margin-top: 40px;
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+.footer .footer-ag-menu p:hover {
+  color: rgb(11, 63, 175);
+}
+
+.bmw-ag-23 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
