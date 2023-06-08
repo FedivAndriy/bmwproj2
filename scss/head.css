@@ -6,10 +6,6 @@
   background: white;
 }
 
-* {
-  max-width: 100%;
-}
-
 .header-menu-bar a {
   text-decoration: none;
   color: white;
