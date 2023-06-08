@@ -93,6 +93,7 @@ body{
     width: 99%;
     height: 550px;
     grid-template-columns: 2fr 4fr;
+    margin-top: 50px;
 }
 .nav_box{
     display: grid;
@@ -151,7 +152,6 @@ body{
     width: 90%;
     height: 750px;
     margin: 0 auto;
-    margin-left: 150px;
 }
 a{
     text-decoration: none;

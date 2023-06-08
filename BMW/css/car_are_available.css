@@ -56,7 +56,9 @@
     font-style: normal;
     font-display: swap;
 }
-
+a{
+    color: black;
+}
 @font-face {
     font-family: 'Helvetica';
     src: url('Helvetica-Bold.eot');
@@ -91,8 +93,8 @@ body{
     height: 975px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px;
-    margin-left: 100px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 .car_block1{
     width: 400px;
